@@ -15,11 +15,9 @@ namespace ConsoleApp2
                 .OrderBy(x => x)
                 .First();
             Console.WriteLine(returnNumber);
-
             // && => and 조건 : true true 일 때 참
             // a && b : a, b랑 둘 다 참일 때 참 반환
             // || => or 조건 : 둘 중 하나라도 true이면 참 반환
-
         }
     }
 }
