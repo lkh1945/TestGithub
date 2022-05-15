@@ -7,7 +7,7 @@ namespace TestGithub
         static void Main(string[] args)
         {
             //배열에서 3보다 큰 짝수를 찾는 함수 만들기
-            int[] testArray = new int[] { 1, 2, 3, 4, 56, 6 };
+            int[] testArray = new int[] { 1, 2, 3, 4, 56, 6, 7 };
             int returnNumber = FindNumber(testArray);
             Console.WriteLine(returnNumber);
             
